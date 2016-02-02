@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount Core::Engine => "/core"
+  mount Core::Engine => "/"
 end
